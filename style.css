@@ -1,0 +1,33 @@
+
+.main{
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    width: 280px;
+    background-color: aqua;
+    margin: 0 auto;
+    border: 5px solid blueviolet;
+    border-radius: 50%;
+    transition: width 2s, transform 2s;
+}
+
+/* .main:hover{
+    width: 480px;
+    color: red;
+    background-color: antiquewhite;
+
+} */
+h1{
+    font-size: 35px;
+    color: red;
+    font-weight: bolder;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+/* h1:hover{
+    font-size: 55px;
+} */
+.main:hover{
+    width: 380px;
+    transform: rotate(360deg);
+}
